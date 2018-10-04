@@ -1,0 +1,133 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .show-m{
+    display: none !important
+  }
+  .hide-m{
+    display: initial !important; 
+  }
+.upload-btn-wrapper.uploaded {
+    width:80%;
+    text-align:center;
+    margin-left:15%
+}
+
+}
+@media (min-width: 1781px) {
+
+.secondary-footer {
+    background: #202734;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 20px;
+    padding-bottom: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+}
+
+  
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .show-m{
+    display: none !important;
+  }
+  .hide-m{
+    display: initial !important; 
+  }
+  .upload-btn-wrapper.uploaded {
+    width:80%;
+    text-align:center;
+    margin-left:15%
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .show-m{
+    display: none !important;
+  }
+  
+  .hide-m{
+    display: initial !important; 
+  }
+.breadcrumb-wrapper{
+  background-size: cover !important;
+}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+.show-m{
+    display: none !important;
+  }
+  
+  .hide-m{
+    display: initial !important; 
+  }
+
+  
+.breadcrumb-wrapper{
+  background-size: cover !important;
+}
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .show-m{
+    display:block !important
+  }
+  
+  .hide-m{
+    display: none !important; 
+  }
+  
+.breadcrumb-wrapper{
+  background-size: cover !important;
+}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .show-m{
+    display:block !important
+  }
+  
+  .hide-m{
+    display: none !important; 
+  }
+  
+.breadcrumb-wrapper{
+  background-size: cover !important;
+}
+}

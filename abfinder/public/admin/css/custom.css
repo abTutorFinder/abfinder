@@ -1,0 +1,34 @@
+.content-wrapper.white {
+    background-color: #fff;
+}
+.row.grid-margin.off {
+    background-color: #e8e8e8;
+    
+    padding: 40px 20px;
+}
+.navbar.default-layout-navbar .navbar-menu-wrapper {
+    background: #f9f9f9 !important;
+    transition: width 0.25s ease, background 0.25s ease;
+    -webkit-transition: width 0.25s ease, background 0.25s ease;
+    -moz-transition: width 0.25s ease, background 0.25s ease;
+    -ms-transition: width 0.25s ease, background 0.25s ease;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: calc(100% - 255px);
+    height: 70px;
+}
+.text-center.navbar-brand-wrapper.d-flex.align-items-center.justify-content-center {
+    background-color: #f9f9f9;
+}
+.card-body.tbl_card{
+	height:550px
+}
+.table-responsive {
+    display: block;
+    width: 100%;
+    /* overflow-x: scroll; */
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    overflow-y: scroll;
+    height: 394px;
+}
